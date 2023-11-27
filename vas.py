@@ -52,5 +52,5 @@ def solve_system_multiple_times(num_iterations, size):
 
 # Получаем количество раз и размер системы, которое пользователь хочет использовать
 num_iterations = int(input("Введите количество раз решения системы: "))
-system_size = 10
+system_size = 50
 solve_system_multiple_times(num_iterations, system_size)
