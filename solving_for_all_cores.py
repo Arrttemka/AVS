@@ -60,7 +60,7 @@ def main():
 
         # Separate results and thread indices
         thread_indices, results = zip(*results_with_index)
-
+        print()
         pool.close()
         pool.join()
 
